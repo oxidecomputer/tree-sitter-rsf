@@ -1,0 +1,25 @@
+; highlights.scm
+
+"use" @keyword
+"enum" @keyword
+"register" @keyword
+"block" @keyword
+"ro" @keyword
+"rw" @keyword
+"wo" @keyword
+"reserved" @keyword
+"," @punctuation.delimiter
+";" @punctuation.delimiter
+":" @punctuation.delimiter
+"@" @punctuation.delimiter
+"<" @punctuation.bracket
+">" @punctuation.bracket
+"[" @punctuation.bracket
+"]" @punctuation.bracket
+"{" @punctuation.bracket
+"}" @punctuation.bracket
+(type) @type
+(number) @number
+(comment) @comment
+(member) @variable.parameter
+"=" @operator

@@ -1,0 +1,383 @@
+[
+  {
+    "type": "block_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "component",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "component",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "component_kind",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "component_kind",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enum_alternate",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "enum_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "enum_alternate",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "member",
+          "named": true
+        },
+        {
+          "type": "mode",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "member",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "mode",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "number",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "binary",
+          "named": true
+        },
+        {
+          "type": "decimal",
+          "named": true
+        },
+        {
+          "type": "hex",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "register_decl",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "field",
+          "named": true
+        },
+        {
+          "type": "number",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "top",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "top",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "block_decl",
+          "named": true
+        },
+        {
+          "type": "enum_decl",
+          "named": true
+        },
+        {
+          "type": "register_decl",
+          "named": true
+        },
+        {
+          "type": "use",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "use",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": ",",
+    "named": false
+  },
+  {
+    "type": "...",
+    "named": false
+  },
+  {
+    "type": ":",
+    "named": false
+  },
+  {
+    "type": "::",
+    "named": false
+  },
+  {
+    "type": ";",
+    "named": false
+  },
+  {
+    "type": "<",
+    "named": false
+  },
+  {
+    "type": "=",
+    "named": false
+  },
+  {
+    "type": ">",
+    "named": false
+  },
+  {
+    "type": "@",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "binary",
+    "named": true
+  },
+  {
+    "type": "block",
+    "named": false
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "decimal",
+    "named": true
+  },
+  {
+    "type": "enum",
+    "named": false
+  },
+  {
+    "type": "hex",
+    "named": true
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "register",
+    "named": false
+  },
+  {
+    "type": "reserved",
+    "named": false
+  },
+  {
+    "type": "ro",
+    "named": false
+  },
+  {
+    "type": "rw",
+    "named": false
+  },
+  {
+    "type": "use",
+    "named": false
+  },
+  {
+    "type": "wo",
+    "named": false
+  },
+  {
+    "type": "{",
+    "named": false
+  },
+  {
+    "type": "}",
+    "named": false
+  }
+]

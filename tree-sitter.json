@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "rsf",
+      "camelcase": "RSF",
+      "scope": "source.rsf",
+      "file-types": [
+        ".rsf"
+      ],
+      "injection-regex": "^rsf$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MPL-2.0",
+    "description": "Register Specification Format",
+    "authors": [
+      {
+        "name": "Ryan Goodfellow",
+        "email": "ry@oxide.computer"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/oxidecomputer/tree-sitter-rsf"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}
