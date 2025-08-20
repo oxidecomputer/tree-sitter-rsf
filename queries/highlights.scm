@@ -1,6 +1,7 @@
 ; highlights.scm
 
 "use" @keyword
+"sram" @keyword
 "enum" @keyword
 "register" @keyword
 "block" @keyword

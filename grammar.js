@@ -37,7 +37,7 @@ module.exports = grammar({
     ),
 
     register_decl: $ => seq(
-      'register', '<', $.number, '>', $.type, '{',
+      optional('sram'), 'register', '<', $.number, '>', $.type, '{',
         $.field,
         repeat(seq(',', $.field)),
         optional(','),
@@ -45,7 +45,7 @@ module.exports = grammar({
     ),
 
     block_decl: $ => seq(
-      'block', $.type, '{',
+      optional('sram'), 'block', $.type, '{',
         $.component,
         repeat(seq(',', $.component)),
         optional(','),

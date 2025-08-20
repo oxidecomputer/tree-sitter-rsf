@@ -330,7 +330,8 @@
   },
   {
     "type": "comment",
-    "named": true
+    "named": true,
+    "extra": true
   },
   {
     "type": "decimal",
@@ -362,6 +363,10 @@
   },
   {
     "type": "rw",
+    "named": false
+  },
+  {
+    "type": "sram",
     "named": false
   },
   {
